@@ -92,6 +92,8 @@ function Hero() {
 
         <motion.a
           href="https://calendly.com/mkauffit/30min"
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="inline-block bg-orange-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange-600 transition"

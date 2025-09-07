@@ -42,7 +42,7 @@ function Header() {
     <header className="bg-white shadow">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 className="text-xl md:text-2xl font-bold text-gray-900">
-          Matthew Kaufman - Health Coach
+          Matthew Kaufman – Health Coach | Strength, Nutrition, Mindset
         </h1>
         <nav className="space-x-6 text-gray-700 font-medium">
           <a href="#services" className="hover:text-emerald-600 transition">
