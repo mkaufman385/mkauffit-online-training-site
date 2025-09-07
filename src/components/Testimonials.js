@@ -1,3 +1,5 @@
+// import { motion } from "framer-motion";
+
 // function Testimonials() {
 //   const testimonials = [
 //     {
@@ -9,7 +11,7 @@
 //     {
 //       name: "James, 27 – Former College Athlete",
 //       quote:
-//         "After years of struggling post-college, Matthew helped me find structure again and get back into peak shape, all while balancing a full-time job.",
+//         "After struggling post-college, Matthew helped me find structure again and get back into peak shape, all while balancing a full-time job.",
 //       images: ["/images/james.jpg"],
 //     },
 //     {
@@ -21,17 +23,19 @@
 //   ];
 
 //   return (
-//     <section
-//       id="testimonials"
-//       className="py-16 bg-white border-t border-gray-200"
-//     >
+//     <section id="testimonials" className="py-16 bg-gray-50">
 //       <div className="max-w-5xl mx-auto px-4 text-center">
-//         <h2 className="text-3xl font-bold mb-10">Client Transformations</h2>
+//         <h2 className="text-3xl font-bold mb-12">Client Transformations</h2>
 //         <div className="grid md:grid-cols-3 gap-8">
 //           {testimonials.map((t, index) => (
-//             <div
+//             <motion.div
 //               key={index}
-//               className="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition"
+//               initial={{ opacity: 0, y: 30 }}
+//               whileInView={{ opacity: 1, y: 0 }}
+//               viewport={{ once: true, amount: 0.3 }}
+//               transition={{ duration: 0.7, delay: index * 0.2 }}
+//               whileHover={{ scale: 1.03 }}
+//               className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
 //             >
 //               {t.images?.length > 0 && (
 //                 <div className="flex gap-2 justify-center mb-4">
@@ -47,7 +51,7 @@
 //               )}
 //               <p className="text-gray-700 italic mb-4">“{t.quote}”</p>
 //               <p className="font-semibold text-gray-900">{t.name}</p>
-//             </div>
+//             </motion.div>
 //           ))}
 //         </div>
 //       </div>
@@ -57,8 +61,9 @@
 
 // export default Testimonials;
 
-//-----------------------------------------------------------------
+//---------------------------------------------------------------------------
 
+// src/components/Testimonials.js
 import { motion } from "framer-motion";
 
 function Testimonials() {
@@ -84,9 +89,11 @@ function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-16 bg-gray-50">
-      <div className="max-w-5xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-12">Client Transformations</h2>
+    <section id="testimonials" className="py-20 bg-gray-50">
+      <div className="max-w-6xl mx-auto px-4 text-center">
+        <h2 className="text-3xl font-bold mb-12 text-gray-900">
+          Client Transformations
+        </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((t, index) => (
             <motion.div
@@ -95,7 +102,6 @@ function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.7, delay: index * 0.2 }}
-              whileHover={{ scale: 1.03 }}
               className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
             >
               {t.images?.length > 0 && (

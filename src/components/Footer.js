@@ -5,9 +5,9 @@
 //     <footer className="bg-black text-white py-6 mt-12">
 //       <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
 //         <p className="text-sm">
-//           &copy; {new Date().getFullYear()} MKaufFit. All rights reserved.
+//           &copy; {new Date().getFullYear()} Matthew Kaufman. All rights
+//           reserved.
 //         </p>
-
 //         <a
 //           href="https://www.instagram.com/mkauffit"
 //           target="_blank"
@@ -24,27 +24,14 @@
 
 // export default Footer;
 
-//---------------------------------------------------------------
+//-----------------------------------------------------------------------
 
-import { FaInstagram } from "react-icons/fa";
-
+// src/components/Footer.js
 function Footer() {
   return (
-    <footer className="bg-black text-white py-6 mt-12">
-      <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} Matthew Kaufman. All rights
-          reserved.
-        </p>
-        <a
-          href="https://www.instagram.com/mkauffit"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center space-x-2 hover:underline"
-        >
-          <FaInstagram className="w-5 h-5" />
-          <span>Follow me on Instagram</span>
-        </a>
+    <footer className="bg-gray-100 py-8 mt-20">
+      <div className="max-w-6xl mx-auto px-4 text-center text-gray-700">
+        &copy; {new Date().getFullYear()} Matthew Kaufman. All rights reserved.
       </div>
     </footer>
   );
