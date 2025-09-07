@@ -35,15 +35,23 @@ function Hero() {
         </motion.a>
       </div>
 
-      {/* Right: Portrait */}
+      {/* Right: Portrait Placeholder */}
       <div className="flex-1 flex justify-center md:justify-end">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.7, duration: 1 }}
-          className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gray-200"
+          className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gray-200 flex items-center justify-center"
         >
-          {/* Replace this div with <img src="/path-to-your-photo.jpg" alt="Matthew" className="rounded-full object-cover w-full h-full"/> */}
+          {/* Placeholder Text */}
+          <span className="text-gray-400 font-semibold">Your Photo Here</span>
+          {/* Later replace with: 
+          <img 
+            src="/path-to-your-photo.jpg" 
+            alt="Matthew" 
+            className="rounded-full object-cover w-full h-full"
+          /> 
+          */}
         </motion.div>
       </div>
     </section>

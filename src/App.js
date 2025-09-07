@@ -61,7 +61,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <Header />
-      <main className="space-y-24">
+      <main className="max-w-5xl mx-auto px-4 py-12 space-y-24">
         <Hero />
         <Services />
         <About />
