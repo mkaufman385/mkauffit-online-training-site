@@ -47,7 +47,9 @@ function Contact() {
           transition={{ duration: 0.7 }}
           className="text-3xl font-bold mb-6 text-gray-900"
         >
-          Ready to Get Started?
+          Healthcare thrives when professionals are at their best. Let’s create
+          a plan that strengthens your body, sharpens your mind, and restores
+          your energy.
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}

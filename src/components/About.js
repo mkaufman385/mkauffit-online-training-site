@@ -1,33 +1,3 @@
-// function About() {
-//   return (
-//     <section id="about" className="py-16">
-//       <div className="max-w-4xl mx-auto text-center px-4">
-//         <h2 className="text-3xl font-bold mb-6">
-//           I'm Matthew — Your Guide to a Stronger, Healthier You
-//         </h2>
-//         <p className="text-lg mb-4">
-//           I’m a certified personal trainer and nutrition advisor with over 13
-//           years of experience helping people of all ages gain confidence,
-//           strength, and clarity in their health journey.
-//         </p>
-//         <p className="text-lg mb-4">
-//           I’ll meet you where you are — whether you’re starting fresh or have
-//           tried everything before — and create a plan that fits your life, not
-//           the other way around.
-//         </p>
-//         <p className="text-base text-gray-600 italic">
-//           Together, we’ll build habits that last, so you can feel confident in
-//           your body and your decisions.
-//         </p>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default About;
-
-//------------------------------------------------------------------------------
-
 // src/components/About.js
 import { motion } from "framer-motion";
 
@@ -44,12 +14,15 @@ function About() {
         >
           <h2 className="text-3xl font-bold mb-6 text-gray-900">About Me</h2>
           <p className="text-gray-700 mb-4">
-            I help people achieve their dream physique, improve their nutrition,
-            and build a healthy mindset—all without extreme diets or burnout.
+            I’ve spent years coaching healthcare professionals—physicians,
+            nurses, and executives—helping them finally prioritize their own
+            well-being. I understand the unique challenges of unpredictable
+            schedules, mental fatigue, and the pressure to always put others
+            first.
           </p>
           <p className="text-gray-700">
-            My approach is practical, personalized, and sustainable so you can
-            actually maintain results long-term.
+            My approach is realistic, sustainable, and designed for
+            professionals who can’t afford to burn out.
           </p>
         </motion.div>
 

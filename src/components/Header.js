@@ -41,8 +41,13 @@ function Header() {
   return (
     <header className="bg-white shadow">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl md:text-2xl font-bold text-gray-900">
-          Matthew Kaufman – Health Coach | Strength, Nutrition, Mindset
+        <h1 className="text-xl md:text-2xl font-bold text-gray-900 text-center md:text-left">
+          <span>
+            Matthew Kaufman – Health Coach for Healthcare Professionals
+          </span>
+          <span className="block text-gray-600 text-base md:text-lg mt-1">
+            Strength • Nutrition • Mindset
+          </span>
         </h1>
         <nav className="space-x-6 text-gray-700 font-medium">
           <a href="#services" className="hover:text-emerald-600 transition">
