@@ -51,8 +51,9 @@ function Testimonials() {
                   ))}
                 </div>
               )}
-              <p className="text-gray-700 italic mb-4">“{t.quote}”</p>
-              <p className="font-semibold text-gray-900">{t.name}</p>
+              {/* Name, age, job above quote */}
+              <p className="font-semibold text-gray-900 mb-2">{t.name}</p>
+              <p className="text-gray-700 italic text-sm">“{t.quote}”</p>
             </motion.div>
           ))}
         </div>

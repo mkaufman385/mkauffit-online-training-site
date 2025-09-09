@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="bg-white shadow">
+    <header className="bg-white/90 backdrop-blur sticky top-0 z-50 shadow">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 className="text-xl md:text-2xl font-bold text-gray-900 text-center md:text-left">
           <span>
