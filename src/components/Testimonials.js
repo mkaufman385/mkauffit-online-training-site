@@ -7,13 +7,13 @@ function Testimonials() {
       name: "Dennis, 34 – Doctor & Dad",
       quote:
         "I have worked with Matt for the past three years. Despite my irregular and often unpredictable schedule as a physician, Matt helped me to set goals and to achieve what I needed to improve my physical health, proactively, setting up exercise routines that were perfect to keep me progressing towards my goals. More importantly, Matt was a genuinely warm and caring person whose presence also provided motivation to continue working towards improved physical fitness. His unique blend of humor and encouragement makes him an exceptional coach.",
-      images: ["/images/sarah-before.jpg", "/images/sarah-after.jpg"],
+      images: [],
     },
     {
       name: "Nadim, 26 – Medical Researcher",
       quote:
         "Working with Matt has made a huge difference in my fitness journey. He helped me improve my form, stay consistent with timing, and strike the right balance between weight lifting and cardio. On top of that, he shared practical tips and life hacks—especially for getting more protein into my routine—which made a big impact. Matt’s approach is motivating, thoughtful, and easy to follow. I’ve definitely seen progress thanks to his guidance.",
-      images: ["/images/james.jpg"],
+      images: [],
     },
     {
       name: "Kelly, 51 – Hospital Executive",

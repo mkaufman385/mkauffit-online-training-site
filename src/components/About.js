@@ -14,11 +14,9 @@ function About() {
         >
           <h2 className="text-3xl font-bold mb-6 text-gray-900">About Me</h2>
           <p className="text-gray-700 mb-4">
-            I’ve spent years coaching healthcare professionals—physicians,
-            nurses, and executives—helping them finally prioritize their own
-            well-being. I understand the unique challenges of unpredictable
-            schedules, mental fatigue, and the pressure to always put others
-            first.
+            I’ve spent years coaching healthcare professionals—nurses,
+            physicians, support staff, and leaders—helping them finally put
+            their own health first.
           </p>
           <p className="text-gray-700">
             My approach is realistic, sustainable, and designed for
