@@ -50,14 +50,14 @@ function Hero() {
 
       {/* Right: Portrait */}
       <div className="flex-1 flex justify-center md:justify-end">
-        <motion.div
+        <motion.img
+          src="/images/matthewHeadshot.jpg"
+          alt="Matthew Kaufman"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.9, duration: 1 }}
-          className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gray-200 shadow-lg"
-        >
-          {/* Replace with <img src="/path-to-photo.jpg" alt="Matthew Kaufman" className="rounded-full object-cover w-full h-full"/> */}
-        </motion.div>
+          className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg"
+        />
       </div>
     </section>
   );
