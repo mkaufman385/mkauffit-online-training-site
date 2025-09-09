@@ -42,8 +42,12 @@ function About() {
           transition={{ duration: 1 }}
           className="md:flex-1"
         >
-          <div className="w-full h-64 md:h-80 rounded-xl bg-gray-200 shadow-lg">
-            {/* Replace with <img src="/path-to-photo.jpg" alt="Matthew Kaufman" className="w-full h-full object-cover rounded-xl"/> */}
+          <div className="w-full h-64 md:h-80 rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="/images/MatthewSurfHeadshot.jpg"
+              alt="Matthew Kaufman Surfing"
+              className="w-full h-full object-cover object-[60%_40%]"
+            />
           </div>
         </motion.div>
       </div>
