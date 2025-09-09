@@ -18,8 +18,19 @@ function About() {
             physicians, support staff, and leaders—helping them finally put
             their own health first.
           </p>
+          <p className="text-gray-700 mb-4">
+            I hold a Bachelor’s degree in Exercise Science with a minor in
+            Psychology from Old Dominion University. I provide guidance on both
+            fitness and nutrition, helping clients build strength, energy, and
+            confidence while creating sustainable habits.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Outside of coaching, I love to snowboard, surf, exercise, and spend
+            quality time with family and friends. These passions keep me
+            energized and inspired to help others achieve their best selves.
+          </p>
           <p className="text-gray-700">
-            My approach is realistic, sustainable, and designed for
+            My approach is realistic, balanced, and designed for healthcare
             professionals who can’t afford to burn out.
           </p>
         </motion.div>
@@ -32,7 +43,7 @@ function About() {
           className="md:flex-1"
         >
           <div className="w-full h-64 md:h-80 rounded-xl bg-gray-200 shadow-lg">
-            {/* Replace with <img src="/path-to-photo.jpg" alt="Matthew" className="w-full h-full object-cover rounded-xl"/> */}
+            {/* Replace with <img src="/path-to-photo.jpg" alt="Matthew Kaufman" className="w-full h-full object-cover rounded-xl"/> */}
           </div>
         </motion.div>
       </div>

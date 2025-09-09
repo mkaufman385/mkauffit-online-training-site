@@ -56,7 +56,7 @@ function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.9, duration: 1 }}
-          className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg"
+          className="w-72 h-72 md:w-96 md:h-96 rounded-full object-cover object-[60%_50%] shadow-lg"
         />
       </div>
     </section>
