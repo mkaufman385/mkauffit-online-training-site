@@ -20,9 +20,10 @@ function About() {
           </p>
           <p className="text-gray-700 mb-4">
             I hold a Bachelor’s degree in Exercise Science with a minor in
-            Psychology from Old Dominion University. I provide guidance on both
-            fitness and nutrition, helping clients build strength, energy, and
-            confidence while creating sustainable habits.
+            Psychology from Old Dominion University along with multiple industry
+            recognized certifications. I provide guidance on both fitness and
+            nutrition, helping clients build strength, energy, and confidence
+            while creating sustainable habits.
           </p>
           <p className="text-gray-700 mb-4">
             Outside of coaching, I love to snowboard, surf, exercise, and spend
