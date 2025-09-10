@@ -29,6 +29,18 @@ function Testimonials() {
       images: [],
     },
     {
+      name: "❤️🔬 Lovedeep, 29 – Cardiovascular Postdoc Associate - Medical Researcher",
+      quote:
+        "I had the best experience training with Matt! He’s super methodical and really helped me learn the right form for every exercise. He pushed me just enough to get stronger without ever feeling unsafe. Plus, he was super flexible with timing and just great fun to be around. I started training to get in shape for my wedding, and I ended up feeling amazing!",
+      images: [],
+    },
+    {
+      name: "🔬 Yu, 35 – Postdoc Associate - Medical Researcher & Mom",
+      quote:
+        "Working with Matt was a really positive experience. He brought the perfect balance of motivation and knowledge to every workout. I appreciated how he took the time to understand my goals and tailor each workout to help me get stronger and more confident. His energy and commitment made a real difference, and I always felt supported. I would definitely recommend Matt to anyone looking for a skilled and approachable coach! ",
+      images: [],
+    },
+    {
       name: "👉 Future You – HealthCare Hero",
       quote:
         "Wow… is this really me? I’ve lost weight, gained strength, and actually enjoy working out now! Matthew made it easy, even with my crazy schedule, and guided me on my nutrition too. I feel energized, confident, and ready to crush anything—both at work and in life. This isn’t just a transformation, it’s my new favorite version of myself! And guess what? This is YOU—your next success story!",
