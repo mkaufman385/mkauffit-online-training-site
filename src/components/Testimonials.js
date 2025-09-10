@@ -5,25 +5,25 @@ import { motion, AnimatePresence } from "framer-motion";
 function Testimonials() {
   const testimonials = [
     {
-      name: "Dennis, 34 – Doctor & Dad",
+      name: "🩺 Dennis, 34 – Doctor & Dad",
       quote:
         "I have worked with Matt for the past three years. Despite my irregular and often unpredictable schedule as a physician, Matt helped me to set goals and to achieve what I needed to improve my physical health, proactively, setting up exercise routines that were perfect to keep me progressing towards my goals. More importantly, Matt was a genuinely warm and caring person whose presence also provided motivation to continue working towards improved physical fitness. His unique blend of humor and encouragement makes him an exceptional coach.",
       images: [],
     },
     {
-      name: "Kelly, 51 – Hospital Executive",
+      name: "🏥 Kelly, 51 – Hospital Executive",
       quote:
         "I was intimidated by the idea of starting at my age, but Matthew made everything approachable and tailored to my needs. With his guidance, I've not only lost weight and gained strength, but I also feel more energetic and confident in my day-to-day life. His programs are realistic for a busy schedule, and his support kept me motivated every step of the way. I truly feel 20 years younger and healthier than I have in decades.",
       images: [],
     },
     {
-      name: "Nadim, 26 – Medical Researcher",
+      name: "🔬 Nadim, 26 – Medical Researcher",
       quote:
         "Working with Matt has made a huge difference in my fitness journey. He helped me improve my form, stay consistent with timing, and strike the right balance between weight lifting and cardio. On top of that, he shared practical tips and life hacks—especially for getting more protein into my routine—which made a big impact. Matt’s approach is motivating, thoughtful, and easy to follow. I’ve definitely seen progress thanks to his guidance.",
       images: [],
     },
     {
-      name: "Diane, 70 – Hospital Social Worker",
+      name: "🏥 Diane, 70 – Hospital Social Worker",
       quote:
         "Matthew helped me get back in the groove with my exercising routine after a health setback. His style and approach was very helpful – he’s both low key but focused and knowledgeable. He really starts with what you can do and builds from there. I always enjoyed my training sessions and looked forward to them. The regular commitment to physical activity helped me manage the stresses of life and of work much better. ",
       images: [],
