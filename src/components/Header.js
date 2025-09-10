@@ -1,15 +1,20 @@
 function Header() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <header className="bg-white/90 backdrop-blur sticky top-0 z-50 shadow">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl md:text-2xl font-bold text-gray-900 text-center md:text-left">
-          <span>
+        <button onClick={scrollToTop} className="text-left focus:outline-none">
+          <h1 className="text-xl md:text-2xl font-bold text-gray-900">
             Matthew Kaufman – Health Coach for Healthcare Professionals
-          </span>
+          </h1>
           <span className="block text-gray-600 text-base md:text-lg mt-1">
             Strength • Nutrition • Mindset
           </span>
-        </h1>
+        </button>
+
         <nav className="space-x-6 text-gray-700 font-medium">
           <a href="#services" className="hover:text-emerald-600 transition">
             Services
