@@ -95,7 +95,7 @@ function Services() {
                   animate={{ rotate: expanded === i ? 180 : 0 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <ChevronDownIcon className="h-6 w-6 text-gray-600" />
+                  <ChevronDownIcon className="h-6 w-6 text-orange-500" />
                 </motion.div>
               </div>
               <p className="text-gray-700">{s.summary}</p>
