@@ -31,7 +31,7 @@ function Footer() {
             onMouseLeave={() => setShowTooltip(false)}
           >
             <FaEnvelope className="w-5 h-5" />
-            <span>Email Me</span>
+            <span>Email Me: mkauffit@gmail.com</span>
           </a>
 
           {/* Tooltip to the right */}
