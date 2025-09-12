@@ -71,11 +71,11 @@ function Contact() {
           transition={{ delay: 0.3, duration: 0.7 }}
           className="text-gray-700 mb-4"
         >
-          Book a free 30-minute call and start your transformation today.
+          Book a free 20-minute call and start your transformation today.
         </motion.p>
 
         <motion.a
-          href="https://calendly.com/mkauffit/30min"
+          href="https://calendly.com/mkauffit/30min?month=2025-09"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}

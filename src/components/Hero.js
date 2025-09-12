@@ -37,14 +37,14 @@ function Hero() {
         </motion.p>
 
         <motion.a
-          href="https://calendly.com/mkauffit/30min"
+          href="https://calendly.com/mkauffit/30min?month=2025-09"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="inline-block bg-orange-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange-600 transition"
         >
-          Book Your Free 30-Min Call
+          Book Your Free 20-Min Call
         </motion.a>
       </div>
 

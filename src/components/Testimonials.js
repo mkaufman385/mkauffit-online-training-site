@@ -17,19 +17,25 @@ function Testimonials() {
       images: [],
     },
     {
+      name: "🩺 Michael, 43 – Nurse Practioner & Dad",
+      quote:
+        "Before working with Matthew, I felt unsure in the gym. He not only taught me proper technique to stay injury-free, but also explained the why behind each exercise so I could see how it connected to my goals in strength, endurance, and muscle growth. His coaching style is approachable yet challenging, which made training fun and motivating. Now I feel confident walking into the gym, knowing I have the foundation to keep progressing — and if I ever need a new challenge, Matthew will be my first call.",
+      images: [],
+    },
+    {
+      name: "🏥 Diane, 70 – Hospital Social Worker",
+      quote:
+        "Matthew helped me get back in the groove with my exercising routine after a health setback. His style and approach was very helpful – he’s both low key but focused and knowledgeable. He really starts with what you can do and builds from there. I always enjoyed my training sessions and looked forward to them. The regular commitment to physical activity helped me manage the stresses of life and of work much better.",
+      images: [],
+    },
+    {
       name: "🔬 Nadim, 26 – Medical Researcher",
       quote:
         "Working with Matt has made a huge difference in my fitness journey. He helped me improve my form, stay consistent with timing, and strike the right balance between weight lifting and cardio. On top of that, he shared practical tips and life hacks—especially for getting more protein into my routine—which made a big impact. Matt’s approach is motivating, thoughtful, and easy to follow. I’ve definitely seen progress thanks to his guidance.",
       images: [],
     },
     {
-      name: "🏥 Diane, 70 – Hospital Social Worker",
-      quote:
-        "Matthew helped me get back in the groove with my exercising routine after a health setback. His style and approach was very helpful – he’s both low key but focused and knowledgeable. He really starts with what you can do and builds from there. I always enjoyed my training sessions and looked forward to them. The regular commitment to physical activity helped me manage the stresses of life and of work much better. ",
-      images: [],
-    },
-    {
-      name: "❤️🔬 Lovedeep, 29 – Cardiovascular Postdoc Associate - Medical Researcher",
+      name: "❤️🔬 Lovedeep, 29 – Cardiovascular Postdoc Associate",
       quote:
         "I had the best experience training with Matt! He’s super methodical and really helped me learn the right form for every exercise. He pushed me just enough to get stronger without ever feeling unsafe. Plus, he was super flexible with timing and just great fun to be around. I started training to get in shape for my wedding, and I ended up feeling amazing!",
       images: [],
@@ -37,7 +43,7 @@ function Testimonials() {
     {
       name: "🔬 Yu, 35 – Postdoc Associate - Medical Researcher & Mom",
       quote:
-        "Working with Matt was a really positive experience. He brought the perfect balance of motivation and knowledge to every workout. I appreciated how he took the time to understand my goals and tailor each workout to help me get stronger and more confident. His energy and commitment made a real difference, and I always felt supported. I would definitely recommend Matt to anyone looking for a skilled and approachable coach! ",
+        "Working with Matt was a really positive experience. He brought the perfect balance of motivation and knowledge to every workout. I appreciated how he took the time to understand my goals and tailor each workout to help me get stronger and more confident. His energy and commitment made a real difference, and I always felt supported. I would definitely recommend Matt to anyone looking for a skilled and approachable coach!",
       images: [],
     },
     {
