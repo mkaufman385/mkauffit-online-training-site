@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 function Testimonials() {
   const testimonials = [
     {
-      name: "🩺 Dennis, 34 – Doctor & Dad",
+      name: "🩺 Dennis, 34 – Gastroenterologist & Dad",
       quote:
         "I have worked with Matt for the past three years. Despite my irregular and often unpredictable schedule as a physician, Matt helped me to set goals and to achieve what I needed to improve my physical health, proactively, setting up exercise routines that were perfect to keep me progressing towards my goals. More importantly, Matt was a genuinely warm and caring person whose presence also provided motivation to continue working towards improved physical fitness. His unique blend of humor and encouragement makes him an exceptional coach.",
       images: [],
