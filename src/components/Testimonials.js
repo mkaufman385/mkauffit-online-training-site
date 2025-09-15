@@ -17,7 +17,7 @@ function Testimonials() {
       images: [],
     },
     {
-      name: "🩺 Ryan, 48 – Cardiologist & Dad",
+      name: "🩺 Ryan, 44 – Cardiologist & Dad",
       quote:
         "Working with Matt has been a game changer. He tailors my workouts seamlessly to my busy schedule as a cardiologist, combining home sessions, gym workouts, and classes—each supported with easy-to-follow video instruction. Beyond the training, we also dive into nutrition, with a focus on protein intake and balancing strength with endurance to support my road cycling, which is my main sport. After just six weeks, I already feel stronger and more confident on the bike, with real improvements in my foundation. Matt’s thoughtful, personalized approach makes all the difference.",
       images: [],
