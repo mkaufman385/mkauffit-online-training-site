@@ -17,6 +17,12 @@ function Testimonials() {
       images: [],
     },
     {
+      name: "🩺 Ryan, 48 – Cardiologist & Dad",
+      quote:
+        "Working with Matt has been a game changer. He tailors my workouts seamlessly to my busy schedule as a cardiologist, combining home sessions, gym workouts, and classes—each supported with easy-to-follow video instruction. Beyond the training, we also dive into nutrition, with a focus on protein intake and balancing strength with endurance to support my road cycling, which is my main sport. After just six weeks, I already feel stronger and more confident on the bike, with real improvements in my foundation. Matt’s thoughtful, personalized approach makes all the difference.",
+      images: [],
+    },
+    {
       name: "🩺 Michael, 43 – Nurse Practitioner & Dad",
       quote:
         "Before working with Matthew, I felt unsure in the gym. He not only taught me proper technique to stay injury-free, but also explained the why behind each exercise so I could see how it connected to my goals in strength, endurance, and muscle growth. His coaching style is approachable yet challenging, which made training fun and motivating. Now I feel confident walking into the gym, knowing I have the foundation to keep progressing — and if I ever need a new challenge, Matthew will be my first call.",
