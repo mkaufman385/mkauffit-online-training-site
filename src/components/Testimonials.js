@@ -23,6 +23,18 @@ function Testimonials() {
       images: [],
     },
     {
+      name: "🗣️💬 Richard, 74 – Speech Language Pathologist",
+      quote:
+        "Over the past several years, Matt has been an exceptional trainer who has consistently assisted me in achieving my fitness objectives. His extensive training knowledge and evidence-based workout routines instill confidence in his commitment to my success in my pursuit of optimal health.",
+      images: [],
+    },
+    {
+      name: "🩺 Elena, 43 – Hospitalist",
+      quote:
+        "I’ve had a fantastic experience training with Matt. He is very professional and knowledgeable. I appreciate his encouraging style—motivating me without ever being pushy. Because I have orthopedic injuries, he carefully adjusts exercises so I can train safely while still making progress. I feel supported and confident every session, highly recommended!",
+      images: [],
+    },
+    {
       name: "🩺 Michael, 43 – Nurse Practitioner & Dad",
       quote:
         "Before working with Matthew, I felt unsure in the gym. He not only taught me proper technique to stay injury-free, but also explained the why behind each exercise so I could see how it connected to my goals in strength, endurance, and muscle growth. His coaching style is approachable yet challenging, which made training fun and motivating. Now I feel confident walking into the gym, knowing I have the foundation to keep progressing — and if I ever need a new challenge, Matthew will be my first call.",
