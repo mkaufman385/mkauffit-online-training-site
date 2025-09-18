@@ -14,9 +14,9 @@ function Footer() {
             href="https://www.instagram.com/mkauffit"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center space-x-2 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent hover:underline transform transition duration-200 hover:scale-105"
+            className="flex items-center space-x-2 text-pink-500 hover:underline transform transition duration-200 hover:scale-105"
           >
-            <FaInstagram className="w-5 h-5 text-pink-500" />
+            <FaInstagram className="w-5 h-5" />
             <span>Follow on Instagram</span>
           </a>
 
@@ -33,12 +33,12 @@ function Footer() {
           <div className="relative flex items-center">
             <a
               href="mailto:mkauffit@gmail.com"
-              className="flex items-center space-x-2 text-orange-500 hover:underline transform transition duration-200 hover:scale-105"
+              className="flex items-center space-x-2 hover:underline transform transition duration-200 hover:scale-105"
               onMouseEnter={() => setShowTooltip(true)}
               onMouseLeave={() => setShowTooltip(false)}
             >
               <FaEnvelope className="w-5 h-5 text-black" />
-              <span>Email Me: mkauffit@gmail.com</span>
+              <span className="text-black">Email Me: mkauffit@gmail.com</span>
             </a>
 
             {showTooltip && (
