@@ -59,6 +59,12 @@ function Testimonials() {
       images: [],
     },
     {
+      name: "💊 Eileen, 63 – Clinical Pharmacist",
+      quote:
+        "I retired from my full-time position as a Clinical Pharmacist in 2023 and that’s when I finally committed to improving my fitness. Working with Matthew has been such a positive experience. As an older client, I had concerns about trying new exercises, but Matt’s guidance always made me feel safe and confident. He is incredibly knowledgeable about health and wellness and always takes the time to answer my questions thoroughly. Every plan he provided was well thought out and tailored to my needs. Matt is friendly, patient, and supportive, and anyone at any level of fitness would benefit from his guidance.",
+      images: [],
+    },
+    {
       name: "❤️🔬 Lovedeep, 29 – Cardiovascular Postdoc Associate",
       quote:
         "I had the best experience training with Matt! He’s super methodical and really helped me learn the right form for every exercise. He pushed me just enough to get stronger without ever feeling unsafe. Plus, he was super flexible with timing and just great fun to be around. I started training to get in shape for my wedding, and I ended up feeling amazing!",
