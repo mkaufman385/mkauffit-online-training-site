@@ -115,7 +115,7 @@ function Testimonials() {
   const cardWidth = 100 / visibleCards;
 
   return (
-    <section id="testimonials" className="py-20 bg-gray-50">
+    <section id="testimonials" className="py-20 bg-gray-100">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-12 text-gray-900">
           Client Transformations
