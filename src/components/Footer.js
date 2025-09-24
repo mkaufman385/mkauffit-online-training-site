@@ -1,10 +1,7 @@
 // src/components/Footer.js
 import { FaInstagram, FaEnvelope, FaLinkedin } from "react-icons/fa";
-import { useState } from "react";
 
 function Footer() {
-  const [showTooltip, setShowTooltip] = useState(false);
-
   return (
     <footer className="bg-gray-100 mt-20">
       {/* Social Links Container */}
@@ -30,23 +27,13 @@ function Footer() {
             <span>Connect on LinkedIn</span>
           </a>
 
-          <div className="relative flex items-center">
-            <a
-              href="mailto:mkauffit@gmail.com"
-              className="flex items-center space-x-2 hover:underline transform transition duration-200 hover:scale-105"
-              onMouseEnter={() => setShowTooltip(true)}
-              onMouseLeave={() => setShowTooltip(false)}
-            >
-              <FaEnvelope className="w-5 h-5 text-black" />
-              <span className="text-black">Email Me: mkauffit@gmail.com</span>
-            </a>
-
-            {showTooltip && (
-              <span className="absolute left-full ml-3 bg-gray-800 text-white text-sm px-2 py-1 rounded-lg whitespace-nowrap">
-                mkauffit@gmail.com
-              </span>
-            )}
-          </div>
+          <a
+            href="mailto:mkauffit@gmail.com"
+            className="flex items-center space-x-2 hover:underline transform transition duration-200 hover:scale-105"
+          >
+            <FaEnvelope className="w-5 h-5 text-black" />
+            <span className="text-black">Email Me: mkauffit@gmail.com</span>
+          </a>
         </div>
       </div>
 
