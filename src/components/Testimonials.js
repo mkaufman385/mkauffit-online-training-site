@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 function Testimonials() {
   const testimonials = [
     {
-      name: "🩺 Dennis, 34 – Gastroenterologist & Dad",
+      name: "🩺 Ryan, 44 – Cardiologist & Dad",
       quote:
-        "I have worked with Matt for the past three years. Despite my irregular and often unpredictable schedule as a physician, Matt helped me to set goals and to achieve what I needed to improve my physical health, proactively, setting up exercise routines that were perfect to keep me progressing towards my goals. More importantly, Matt was a genuinely warm and caring person whose presence also provided motivation to continue working towards improved physical fitness. His unique blend of humor and encouragement makes him an exceptional coach.",
+        "Working with Matt has been a game changer. He tailors my workouts seamlessly to my busy schedule as a cardiologist, combining home sessions, gym workouts, and classes—each supported with easy-to-follow video instruction. Beyond the training, we also dive into nutrition, with a focus on protein intake and balancing strength with endurance to support my road cycling, which is my main sport. After just six weeks, I already feel stronger and more confident on the bike, with real improvements in my foundation. Matt’s thoughtful, personalized approach makes all the difference.",
       images: [],
     },
     {
@@ -17,11 +17,24 @@ function Testimonials() {
       images: [],
     },
     {
-      name: "🩺 Ryan, 44 – Cardiologist & Dad",
+      name: "🩺 Chris, 31 – Registered Nurse",
       quote:
-        "Working with Matt has been a game changer. He tailors my workouts seamlessly to my busy schedule as a cardiologist, combining home sessions, gym workouts, and classes—each supported with easy-to-follow video instruction. Beyond the training, we also dive into nutrition, with a focus on protein intake and balancing strength with endurance to support my road cycling, which is my main sport. After just six weeks, I already feel stronger and more confident on the bike, with real improvements in my foundation. Matt’s thoughtful, personalized approach makes all the difference.",
+        "I really enjoyed working with Matt over the past few years. His workouts were challenging yet easy to follow, and he tailored them perfectly to my goals. With his guidance, I made steady strength gains that carried over into my triathlon training. He also shared practical nutrition tips that made a real difference in my daily routine. Matt was relatable, supportive, and flexible, which made staying consistent easy. His guidance kept me motivated and confident that the plan was designed just for me.",
       images: [],
     },
+    {
+      name: "🏥 Diane, 70 – Hospital Social Worker",
+      quote:
+        "Matthew helped me get back in the groove with my exercising routine after a health setback. His style and approach was very helpful – he’s both low key but focused and knowledgeable. He really starts with what you can do and builds from there. I always enjoyed my training sessions and looked forward to them. The regular commitment to physical activity helped me manage the stresses of life and of work much better.",
+      images: [],
+    },
+    {
+      name: "🩺 Dennis, 34 – Gastroenterologist & Dad",
+      quote:
+        "I have worked with Matt for the past three years. Despite my irregular and often unpredictable schedule as a physician, Matt helped me to set goals and to achieve what I needed to improve my physical health, proactively, setting up exercise routines that were perfect to keep me progressing towards my goals. More importantly, Matt was a genuinely warm and caring person whose presence also provided motivation to continue working towards improved physical fitness. His unique blend of humor and encouragement makes him an exceptional coach.",
+      images: [],
+    },
+
     {
       name: "🗣️💬 Richard, 74 – Speech Language Pathologist",
       quote:
@@ -40,12 +53,7 @@ function Testimonials() {
         "Before working with Matthew, I felt unsure in the gym. He not only taught me proper technique to stay injury-free, but also explained the why behind each exercise so I could see how it connected to my goals in strength, endurance, and muscle growth. His coaching style is approachable yet challenging, which made training fun and motivating. Now I feel confident walking into the gym, knowing I have the foundation to keep progressing — and if I ever need a new challenge, Matthew will be my first call.",
       images: [],
     },
-    {
-      name: "🏥 Diane, 70 – Hospital Social Worker",
-      quote:
-        "Matthew helped me get back in the groove with my exercising routine after a health setback. His style and approach was very helpful – he’s both low key but focused and knowledgeable. He really starts with what you can do and builds from there. I always enjoyed my training sessions and looked forward to them. The regular commitment to physical activity helped me manage the stresses of life and of work much better.",
-      images: [],
-    },
+
     {
       name: "🩺 Melanie, 42 – Case Management Nurse",
       quote:
