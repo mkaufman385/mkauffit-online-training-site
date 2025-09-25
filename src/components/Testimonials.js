@@ -34,7 +34,12 @@ function Testimonials() {
         "I have worked with Matt for the past three years. Despite my irregular and often unpredictable schedule as a physician, Matt helped me to set goals and to achieve what I needed to improve my physical health, proactively, setting up exercise routines that were perfect to keep me progressing towards my goals. More importantly, Matt was a genuinely warm and caring person whose presence also provided motivation to continue working towards improved physical fitness. His unique blend of humor and encouragement makes him an exceptional coach.",
       images: [],
     },
-
+    {
+      name: "💬❤️ Deb, 62 – Clinical Social Worker",
+      quote:
+        "I began working with Matt after recovering from a back injury and was immediately impressed by his knowledge in helping me safely rebuild my strength. His coaching not only improved my strength and endurance but also gave me the confidence to keep pushing forward. He provided simple, effective nutrition guidance that supported my goals and made healthy changes easier to maintain. Matt’s supportive and encouraging style created an environment where progress felt safe, achievable, and truly transformative.  ",
+      images: [],
+    },
     {
       name: "🗣️💬 Richard, 74 – Speech Language Pathologist",
       quote:
