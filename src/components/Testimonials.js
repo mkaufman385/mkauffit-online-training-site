@@ -11,6 +11,12 @@ function Testimonials() {
       images: [],
     },
     {
+      name: "🩺 Cristina, 37 – Transfusion MD",
+      quote:
+        "Huge shoutout to Matt! Despite my hectic residency and fellowship schedule, he taught me proper exercises, shared great nutritional tips, and made every session fun and motivating. Matt’s dedication and energy are truly inspiring—he helped me stay consistent, show up even on the toughest days, and keep pushing toward my goals. Couldn’t ask for a better coach!",
+      images: [],
+    },
+    {
       name: "🏥 Kelly, 51 – Hospital Executive",
       quote:
         "I was intimidated by the idea of starting at my age, but Matthew made everything approachable and tailored to my needs. With his guidance, I've not only lost weight and gained strength, but I also feel more energetic and confident in my day-to-day life. His programs are realistic for a busy schedule, and his support kept me motivated every step of the way. I truly feel 20 years younger and healthier than I have in decades.",
