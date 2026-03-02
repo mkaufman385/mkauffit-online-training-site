@@ -36,6 +36,32 @@ function Hero() {
           without extreme diets or unrealistic plans.
         </motion.p>
 
+        {/* <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.7, duration: 1 }}
+          className="text-base md:text-lg mb-6 max-w-2xl mx-auto md:mx-0 text-gray-700 leading-relaxed"
+        >
+          From Intention to Identity: <br></br>Intention ➡️ Behavior ➡️ Habit ➡️
+          Practice ➡️ Second Nature ➡️ Identity
+        </motion.p> */}
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.7, duration: 1 }}
+          className="mb-6 max-w-2xl mx-auto md:mx-0 text-gray-700"
+        >
+          <p className="text-lg md:text-xl font-semibold">
+            From Intention to Identity
+          </p>
+
+          <p className="text-sm md:text-base whitespace-nowrap overflow-x-auto">
+            Intention ➡️ Behavior ➡️ Habit ➡️ Practice ➡️ Second Nature ➡️
+            Identity
+          </p>
+        </motion.div>
+
         <motion.a
           href="https://calendly.com/mkauffit/30min?month=2025-09"
           target="_blank"

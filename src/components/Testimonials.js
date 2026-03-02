@@ -41,6 +41,12 @@ function Testimonials() {
       images: [],
     },
     {
+      name: "💻 Joey, 34 - IT Engineer",
+      quote:
+        "I had the absolute pleasure of training with Matt. We are old friends from college and I was wanting to take my fitness to another level and prepare my body for the next phases in life. Matt was able to tailor my needs with an exercise and nutrition program that worked around many injuries that previously limited me. In 4 months I dropped 7lbs and definitley increased muscle size. Even better, my flexibility and old injuries no longer hindered daily life. Whatever your physical goals or needs Matt will have you excel past them.",
+      images: [],
+    },
+    {
       name: "💬❤️ Deb, 62 – Clinical Social Worker",
       quote:
         "I began working with Matt after recovering from a back injury and was immediately impressed by his knowledge in helping me safely rebuild my strength. His coaching not only improved my strength and endurance but also gave me the confidence to keep pushing forward. He provided simple, effective nutrition guidance that supported my goals and made healthy changes easier to maintain. Matt’s supportive and encouraging style created an environment where progress felt safe, achievable, and truly transformative.  ",
@@ -120,13 +126,13 @@ function Testimonials() {
 
   const handlePrev = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? testimonials.length - visibleCards : prev - visibleCards
+      prev === 0 ? testimonials.length - visibleCards : prev - visibleCards,
     );
   };
 
   const handleNext = () => {
     setCurrentIndex((prev) =>
-      prev + visibleCards >= testimonials.length ? 0 : prev + visibleCards
+      prev + visibleCards >= testimonials.length ? 0 : prev + visibleCards,
     );
   };
 
