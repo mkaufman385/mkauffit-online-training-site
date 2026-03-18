@@ -74,7 +74,7 @@ function Testimonials() {
     {
       name: "🩺 Melanie, 42 – Case Management Nurse",
       quote:
-        "Working with Matthew Kauffman has been such a positive experience. Through his guidance, I saw real progress not just in my strength and overall fitness, but in reaching my weight loss goals. He introduced me to strategies like incline treadmill walking, which became a game-changer for burning calories and accelerating my results. Beyond exercise, Matthew offered practical advice on nutrition and mindset that made sticking to my goals feel achievable and sustainable. His calm, personable approach kept me motivated and focused, and he tracked my progress in a way that made every step forward feel rewarding. I always felt stronger, more confident, and inspired to keep improving.  ",
+        "Working with Matthew Kaufman has been such a positive experience. Through his guidance, I saw real progress not just in my strength and overall fitness, but in reaching my weight loss goals. He introduced me to strategies like incline treadmill walking, which became a game-changer for burning calories and accelerating my results. Beyond exercise, Matthew offered practical advice on nutrition and mindset that made sticking to my goals feel achievable and sustainable. His calm, personable approach kept me motivated and focused, and he tracked my progress in a way that made every step forward feel rewarding. I always felt stronger, more confident, and inspired to keep improving.  ",
       images: [],
     },
     {
