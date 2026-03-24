@@ -1,6 +1,15 @@
 import { motion } from "framer-motion";
 
 function Hero() {
+  const steps = [
+    "Intention",
+    "Behavior",
+    "Habit",
+    "Practice",
+    "Second Nature",
+    "Identity",
+  ];
+
   return (
     <section className="max-w-6xl mx-auto px-4 py-16 flex flex-col-reverse md:flex-row items-center gap-12 bg-gradient-to-r from-orange-100 to-white rounded-xl">
       {/* Left: Text */}
@@ -30,36 +39,39 @@ function Hero() {
           transition={{ delay: 0.7, duration: 1 }}
           className="text-base md:text-lg mb-6 max-w-2xl mx-auto md:mx-0 text-gray-700 leading-relaxed"
         >
-          Long shifts, high stress, and demanding schedules often push your own
-          health to the side. I help healthcare professionals—nurses, doctors,
-          support staff, and leaders—build strength, energy, and confidence
-          without extreme diets or unrealistic plans.
+          You repeatedly struggle with consistency and fatigue and want to get
+          back in shape, shed the post-COVID weight, and feel confident again!
         </motion.p>
 
-        {/* <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.7, duration: 1 }}
-          className="text-base md:text-lg mb-6 max-w-2xl mx-auto md:mx-0 text-gray-700 leading-relaxed"
-        >
-          From Intention to Identity: <br></br>Intention ➡️ Behavior ➡️ Habit ➡️
-          Practice ➡️ Second Nature ➡️ Identity
-        </motion.p> */}
-
+        {/* 🔥 Animated Framework Strip */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.7, duration: 1 }}
-          className="mb-6 max-w-2xl mx-auto md:mx-0 text-gray-700"
+          transition={{ delay: 0.9, duration: 1 }}
+          className="mb-6 max-w-2xl mx-auto md:mx-0"
         >
-          <p className="text-lg md:text-xl font-semibold">
+          <p className="text-lg md:text-xl font-semibold text-gray-900 mb-3">
             From Intention to Identity
           </p>
 
-          <p className="text-sm md:text-base whitespace-nowrap overflow-x-auto">
-            Intention ➡️ Behavior ➡️ Habit ➡️ Practice ➡️ Second Nature ➡️
-            Identity
-          </p>
+          <div className="pl-4 border-l-4 border-orange-500 bg-gradient-to-r from-orange-100/60 to-transparent rounded-r-lg py-2 overflow-x-auto">
+            <div className="flex items-center gap-2 min-w-max md:min-w-0">
+              {steps.map((step, index) => (
+                <motion.span
+                  key={step}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1 + index * 0.2 }}
+                  className="text-sm md:text-base text-gray-700 whitespace-nowrap"
+                >
+                  {step}
+                  {index < steps.length - 1 && (
+                    <span className="mx-2 text-orange-500">➡️</span>
+                  )}
+                </motion.span>
+              ))}
+            </div>
+          </div>
         </motion.div>
 
         <motion.a
@@ -75,14 +87,14 @@ function Hero() {
       </div>
 
       {/* Right: Portrait */}
-      <div className="flex-1 flex justify-center md:justify-end">
+      <div className="flex-1 flex justify-center md:justify-end items-center">
         <motion.img
           src="/images/matthewHeadshot.jpg"
           alt="Matthew Kaufman"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.9, duration: 1 }}
-          className="w-72 h-72 md:w-96 md:h-96 rounded-full object-cover object-[60%_50%] shadow-lg"
+          transition={{ delay: 1.1, duration: 1 }}
+          className="w-72 h-72 md:w-96 md:h-96 rounded-full object-cover object-[60%_50%] shadow-lg flex-shrink-0"
         />
       </div>
     </section>

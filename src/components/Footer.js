@@ -39,7 +39,7 @@ function Footer() {
 
       {/* Full-width copyright */}
       <div className="bg-gray-200 text-gray-600 py-4 text-center text-sm w-full">
-        © 2025 Matthew Kaufman. All rights reserved.
+        © 2026 Matthew Kaufman. All rights reserved.
       </div>
     </footer>
   );
