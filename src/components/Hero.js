@@ -54,15 +54,15 @@ function Hero() {
             From Intention to Identity
           </p>
 
-          <div className="pl-4 border-l-4 border-orange-500 bg-gradient-to-r from-orange-100/60 to-transparent rounded-r-lg py-2 overflow-x-auto">
-            <div className="flex items-center gap-2 min-w-max md:min-w-0">
+          <div className="pl-4 border-l-4 border-orange-500 bg-gradient-to-r from-orange-100/60 to-transparent rounded-r-lg py-2 overflow-x-auto overflow-y-hidden">
+            <div className="flex items-center gap-2 min-w-max">
               {steps.map((step, index) => (
                 <motion.span
                   key={step}
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 1 + index * 0.2 }}
-                  className="text-sm md:text-base text-gray-700 whitespace-nowrap"
+                  className="text-sm md:text-base text-gray-700 whitespace-nowrap flex items-center"
                 >
                   {step}
                   {index < steps.length - 1 && (
