@@ -18,10 +18,12 @@ function Hero() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-5xl md:text-6xl font-extrabold mb-4 text-gray-900"
+          className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-gray-900 leading-tight"
         >
-          Stop Starting <span className="text-orange-500">Over</span> Every
-          Monday
+          <span className="block">Long Shifts Are Inevitable.</span>
+          <span className="block text-orange-500 mt-1">
+            Feeling Out of Shape Doesn’t Have to Be.
+          </span>
         </motion.h1>
 
         <motion.p
@@ -54,15 +56,15 @@ function Hero() {
             From Intention to Identity
           </p>
 
-          <div className="pl-4 border-l-4 border-orange-500 bg-gradient-to-r from-orange-100/60 to-transparent rounded-r-lg py-2 overflow-x-auto overflow-y-hidden">
-            <div className="flex items-center gap-2 min-w-max">
+          <div className="pl-4 border-l-4 border-orange-500 bg-gradient-to-r from-orange-100/60 to-transparent rounded-r-lg py-2">
+            <div className="flex flex-wrap md:flex-nowrap items-center justify-center md:justify-start gap-2">
               {steps.map((step, index) => (
                 <motion.span
                   key={step}
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 1 + index * 0.2 }}
-                  className="text-sm md:text-base text-gray-700 whitespace-nowrap flex items-center"
+                  className="text-sm md:text-base text-gray-700 flex items-center"
                 >
                   {step}
                   {index < steps.length - 1 && (
